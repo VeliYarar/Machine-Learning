@@ -1,0 +1,7 @@
+df dönüşüm yapmak için;
+import pandas as pd
+df = pd.DataFrame(linear_regression_datasetcsv, columns = ["deneyim","maas"])
+
+veri görselleştirme için;
+import matplotlib.pyplot as plt
+plt.scatter(df.deneyim, df.maas)
